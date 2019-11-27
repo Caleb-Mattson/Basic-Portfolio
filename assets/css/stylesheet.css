@@ -61,14 +61,14 @@ section {
     top: 0;
 }
 
-/* #line2  {
+#line2  {
     position: relative;
     z-index: 30;
     height: 1px;
-    width: 80%;
-    left: 10%;
+    width: 90%;
+    left: 5%;
     background: white;
-} */
+}
 
 body {
     background-color: #8FBC8F;
@@ -102,4 +102,6 @@ p {
     float: left;
 }
 
-
+#container {
+    width: 100%;
+}
