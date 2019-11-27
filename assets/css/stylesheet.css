@@ -10,7 +10,7 @@ H1 {
     width: 220px;
     height: 25px;
     position: absolute;
-    left: 20%;
+    left: 10%;
     top: 9px;
     color: white;
     z-index: 1;
@@ -25,7 +25,8 @@ H1 {
     margin: 5px;
     /* border: 0 auto 0 auto; */
     top: -10px;
-    right: 310px;
+    right: 9.5%;
+    /* left: 80.5%; */
     z-index: 200;
     color: white;
 }
@@ -39,7 +40,7 @@ H1 {
     margin: 5px;
     /* border: 0 auto 0 auto; */
     top: -10px;
-    right: 310px;
+    right: 9.5%;
     z-index: 200;
     color: white;
 }
@@ -47,7 +48,7 @@ H1 {
 section {
     position: relative;
     float: center;
-    width: 960px;
+    width: 80%;
     background: #262626;
     margin: 0 auto 0 auto;
     top: 50px;
