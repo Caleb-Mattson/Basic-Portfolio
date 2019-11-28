@@ -75,9 +75,6 @@ section {
 
 body {
     background-image: url("../images/bground.png");
-    background-attachment: fixed;
-    /* z-index: 5; */
-    
 }
 
 #spacer {
@@ -132,12 +129,12 @@ footer {
     border-bottom: 0px;
     border-right: 0px;
 } 
+
 #cr {
     color: white;
     font-size: 15px;
     position: relative;
     margin: 0 auto 0 auto;
     top: 33.3%;
-    left: 50%;
-
+    left: 45%;
 }
