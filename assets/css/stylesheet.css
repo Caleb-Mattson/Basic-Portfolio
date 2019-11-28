@@ -10,7 +10,7 @@ H1 {
     width: 220px;
     height: 25px;
     position: absolute;
-    left: 19.5%;
+    left: 20%;
     top: 9px;
     color: white;
     z-index: 1;
@@ -23,10 +23,8 @@ H1 {
     float: right;
     padding: 5px;
     margin: 5px;
-    /* border: 0 auto 0 auto; */
     top: -10px;
     right: 19.5%;
-    /* left: 80.5%; */
     z-index: 200;
     color: #777777;
 }
@@ -38,7 +36,6 @@ H1 {
     float: right;
     padding: 5px;
     margin: 5px;
-    /* border: 0 auto 0 auto; */
     top: -10px;
     right: 19.5%;
     z-index: 200;
@@ -49,6 +46,7 @@ section {
     position: relative;
     float: center;
     width: 60%;
+    height: 100%;
     background: #ffffff;
     margin: 0 auto 0 auto;
     top: 50px;
@@ -56,7 +54,6 @@ section {
     border-color: #dddddd;
     border-width: 2px;
     z-index: 101;
-    /* display: none; */
 }
 
 #line1 {
@@ -126,8 +123,8 @@ footer {
     height: 40px;
     z-index: 100;
     position: fixed;
+    float: bottom;
     bottom: 0px;
-    padding-top: 5px;
     border-style: solid;
     border-color: #4aaaa5;
     border-width: 15px;
@@ -135,3 +132,12 @@ footer {
     border-bottom: 0px;
     border-right: 0px;
 } 
+#cr {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    margin: 0 auto 0 auto;
+    top: 33.3%;
+    left: 50%;
+
+}
