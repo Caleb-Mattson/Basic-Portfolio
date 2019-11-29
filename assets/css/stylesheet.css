@@ -188,6 +188,7 @@ input[type=text], select, textarea {
   #port {
       display: block;
       background: white;
+      height: 550px;
   }
 
   h3 {
