@@ -51,7 +51,7 @@ H1 {
 section {
     position: relative;
     float: center;
-    width: 60%;
+    width: 960px;
     height: 100%;
     background: #ffffff;
     margin: 0 auto 0 auto;
@@ -59,7 +59,7 @@ section {
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
-    z-index: 101;
+    z-index: 100;
 }
 
 #line1 {
@@ -119,21 +119,20 @@ a {
     text-decoration: none;
 }
 
-footer {
-    display: block;
-    width: 100%;
-    background: #666666;
-    height: 40px;
-    z-index: 100;
-    position: fixed;
+.footer {
+    background: #666;
+    left: 0;
+    bottom: 0;
+    /* width: 960px; */
+    min-width: 97.5%;
+    text-align: center;
+    font-size: 8px;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    border-top: 15px solid #4aaaa5;
     float: bottom;
-    bottom: 0px;
-    border-style: solid;
-    border-color: #4aaaa5;
-    border-width: 15px;
-    border-left: 0px;
-    border-bottom: 0px;
-    border-right: 0px;
+    position: absolute;
 } 
 
 #cr {
@@ -208,4 +207,23 @@ input[type=text], select, textarea {
   }
 
 
+  header .container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    width: auto;
+}
+header .container a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 15px;
+}
+header .container .site-name {
+    display: inline;
+    background-color: #4AAAA5;
+    font-size: 40px;
+    /* display: inline-block; */
+    color: white;
+}
   
