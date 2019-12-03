@@ -4,56 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Caleb Mattson Bio</title>
-    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/stylesheet.css">
-
+    <title>Caleb Mattson</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
 
 </head>
-
 <body>
-    <div id="container">
-    <H1>Caleb Mattson</H1>
-    <div id="spacer"></div>
-    <div id="line1"></div>
-    <!-- <hr> -->
-
-    <nav>
-        <a href="index.html" class="click">About</a>
-        <div class="dvd">|</div>
-        <a href="portfolio.html" class="click">Portfolio</a>
-        <div class="dvd">|</div>
-        <a href="contact.html" class="click">Contact</a>
-    </nav>
-
-    <!-- <hr> -->
-    <!-- <div id="container"> -->
-    <Section>
-        <h2>Contact Information</h2>
-        <div id="line2"></div>
-
-        <div class="container">
-            <form action="#">
-          
-              <label for="fname">Full Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Email</label>
-              <input type="text" id="lname" name="lastname" placeholder="example@domain.com">
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit" >
-          
-            </form>
-          </div>
-        
-    </Section>
-
-    <footer class="footer">
-        <div id="cr">copyright© 2019 Caleb Mattson</div>
-    </footer>
+    <header id="masthead">
+    <div class="container">
+        <a href="index.html" id="logo">Caleb Mattson</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
     </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <section class="main-container">
+            <h1>Contact</h1>
+
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea  name="message" id="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+
+            </form>
+            
+
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            &copy; Copyright 2019 Caleb Mattson
+        </div>
+    </footer>
 </body>
 </html>
